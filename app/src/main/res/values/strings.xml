@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laboratorio2</string>
+    <string name="avengersText">Los Vengadores creados por Stan Lee y Jack Kirby. Hulk había sido engañado por Loki y
+        provocó un accidente de tren. Rick Jones, el sempiterno amigo de Hulk intentó avisar a los 4 Fantásticos (el
+        único grupo de héroes existente por aquel entonces), pero Loki interceptó la llamada desviándola. El
+        destinatario de aquella llamada fue Thor, pero además, Hank Pym, el Hombre Hormiga, su esposa, La Avispa y Iron
+        Man, la captaron, presentándose en el lugar del accidente.
+    </string>
+</resources>
