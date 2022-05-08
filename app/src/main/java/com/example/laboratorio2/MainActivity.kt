@@ -13,6 +13,10 @@ class MainActivity : AppCompatActivity() {
         botonVengadores.setOnClickListener {
             startActivity(Intent(this, AvengersActivity::class.java))
         }
+        val topcomics = findViewById<Button>(R.id.topcomics)
+        topcomics.setOnClickListener {
+            startActivity(Intent(this, TopComics::class.java))
+        }
     }
     override fun onStart(){
         super.onStart()
