@@ -5,21 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class Xmen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val botonVengadores = findViewById<Button>(R.id.buttonAvengers)
-        botonVengadores.setOnClickListener {
-            startActivity(Intent(this, AvengersActivity::class.java))
-        }
-        val topcomics = findViewById<Button>(R.id.topcomics)
-        topcomics.setOnClickListener {
-            startActivity(Intent(this, TopComics::class.java))
-        }
-        val xMen = findViewById<Button>(R.id.buttonXmen)
-        xMen.setOnClickListener {
-            startActivity(Intent(this, Xmen::class.java))
+        setContentView(R.layout.activity_xmen)
+        val xmenvolver = findViewById<Button>(R.id.volverXmen)
+        xmenvolver.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
     override fun onStart(){
@@ -49,4 +41,3 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
-

@@ -10,6 +10,9 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Laboratorio2">
         <activity
+                android:name=".Xmen"
+                android:exported="true"/>
+        <activity
                 android:name=".TopComics"
                 android:exported="true"/>
         <activity
